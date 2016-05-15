@@ -1,0 +1,17 @@
+apply plugin: 'java'
+apply plugin: 'groovy'
+
+description = "Spock Framework - Workshop"
+
+sourceCompatibility = 1.8
+
+repositories {
+	jcenter()
+    mavenCentral()
+}
+
+// In this section you declare the dependencies for your production and test code
+dependencies {
+ 	testCompile "org.codehaus.groovy:groovy-all:2.4.1"
+  	testCompile "org.spockframework:spock-core:1.0-groovy-2.4"
+}
