@@ -4,12 +4,12 @@ import spock.lang.Specification;
 
 class HelloSpecification extends Specification {
 	
-	def "should return hello world"() {
+	def "should return Hello world"() {
 		given:
 		def hello = new Hello()
 		when:
 		def result = hello.sayHello()
 		then:
-		result == "Hello world"
+		result == "Hello world1"
 	}
 }

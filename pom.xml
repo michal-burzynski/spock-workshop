@@ -23,8 +23,7 @@
         <version>1.4</version>
         <executions>
           <execution>
-            <goals>
-              <goal>compile</goal>
+            <goals>             
               <goal>testCompile</goal>
             </goals>
           </execution>
