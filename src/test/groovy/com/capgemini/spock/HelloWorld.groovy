@@ -1,3 +1,4 @@
+package com.capgemini.spock
 
 class HelloWorld {
 	
@@ -6,7 +7,7 @@ class HelloWorld {
 		
 		
 		//create new Hello object "first" with id = 1, word = "Hello"
-		
+
 		
 		//create new list with "first" object
 		

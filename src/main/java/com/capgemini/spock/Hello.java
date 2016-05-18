@@ -2,13 +2,13 @@ package com.capgemini.spock;
 
 public class Hello {
 	
-	private String id;
+	private int id;
 	private String word;
 	
-	public String getId() {
+	public int getId() {
 		return id;
 	}
-	public void setId(String id) {
+	public void setId(int id) {
 		this.id = id;
 	}
 	public String getWord() {
@@ -17,7 +17,9 @@ public class Hello {
 	public void setWord(String word) {
 		this.word = word;
 	}
+	@Override
+	public String toString() {
+		return "Hello [id=" + id + ", word=" + word + "]";
+	}		
 	
-	
-
 }
